@@ -15,7 +15,7 @@ class TodoRepositoryTest {
   @Test
   public void ensure_findById_returnsTodo() {
     // Given
-    var todo = new Todo("Do todoApp by Wenz", false);
+    var todo = new Todo("Bondarchakk suck dick", true);
 
     // save to db
     todoRepository.save(todo);

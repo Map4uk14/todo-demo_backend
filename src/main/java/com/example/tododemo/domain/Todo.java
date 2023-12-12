@@ -18,4 +18,8 @@ public class Todo {
 
   // Spring data
   public Todo() {}
+
+  public void setTitle(String title) {
+    this.titel = title;
+  }
 }
